@@ -1,8 +1,8 @@
-var num1 = '';
-var num2 = '';
-var res = '';
-var operacao = '';
-var txtInput = document.getElementById('resultado');
+let num1 = '';
+let num2 = '';
+let res = '';
+let operacao = '';
+let txtInput = document.getElementById('resultado');
 txtInput.value = '0';
 
 function definirOperacao(valor) {
@@ -40,7 +40,7 @@ function calcular() {
     if (num1 === '' || num2 === '' || operacao === '') {
         return;
     }
-    var res = '';
+    let res = '';
     num1 = parseFloat(num1);
     num2 = parseFloat(num2);
     switch (operacao) {
