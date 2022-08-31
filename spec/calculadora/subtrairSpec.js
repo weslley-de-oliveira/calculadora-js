@@ -1,6 +1,6 @@
 describe("Suíte de testes de subtração", function() {
 
-    var Calculadora = require('../../src/js/calculadora.js');
+    let Calculadora = require('../../src/js/calculadora.js');
 
     it("Deve retornar 5 para 8 e 3", function() {
         expect(Calculadora.subtrair(8, 3)).toEqual(5);
